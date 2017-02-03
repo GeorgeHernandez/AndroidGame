@@ -11,19 +11,6 @@
     tools:context="com.georgehernandez.mathgamechapter2.GameActivity">
 
   <TextView
-      android:text="2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentTop="true"
-      android:layout_alignParentLeft="true"
-      android:layout_alignParentStart="true"
-      android:layout_marginLeft="21dp"
-      android:layout_marginStart="21dp"
-      android:layout_marginTop="17dp"
-      android:id="@+id/textPartA"
-      android:textSize="70sp"/>
-
-  <TextView
       android:text="="
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -35,20 +22,7 @@
       android:textSize="70sp"/>
 
   <TextView
-      android:text="2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentTop="true"
-      android:layout_alignParentLeft="true"
-      android:layout_alignParentStart="true"
-      android:layout_marginLeft="21dp"
-      android:layout_marginStart="21dp"
-      android:layout_marginTop="17dp"
-      android:id="@+id/textView7"
-      android:textSize="70sp"/>
-
-  <TextView
-      android:text="2"
+      android:text="9"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginRight="34dp"
@@ -59,17 +33,6 @@
       android:layout_alignParentRight="true"
       android:layout_alignParentEnd="true"
       android:textSize="70sp"/>
-
-  <TextView
-      android:text="2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:id="@+id/textView6"
-      android:textSize="70sp"
-      android:layout_alignBaseline="@+id/textPartA"
-      android:layout_alignBottom="@+id/textPartA"
-      android:layout_alignLeft="@+id/textPartA"
-      android:layout_alignStart="@+id/textPartA"/>
 
   <TextView
       android:text="x"
@@ -110,4 +73,16 @@
       android:textSize="40sp"
       android:layout_alignTop="@+id/buttonChoice1"
       android:layout_centerHorizontal="true"/>
+
+  <TextView
+      android:text="9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView6"
+      android:textSize="70sp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_marginLeft="24dp"
+      android:layout_marginStart="24dp"/>
 </RelativeLayout>
