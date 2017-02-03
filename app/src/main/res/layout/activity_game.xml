@@ -10,4 +10,104 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.georgehernandez.mathgamechapter2.GameActivity">
 
+  <TextView
+      android:text="2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_marginLeft="21dp"
+      android:layout_marginStart="21dp"
+      android:layout_marginTop="17dp"
+      android:id="@+id/textPartA"
+      android:textSize="70sp"/>
+
+  <TextView
+      android:text="="
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textOperator"
+      android:layout_alignRight="@+id/textOperator"
+      android:layout_alignEnd="@+id/textOperator"
+      android:layout_marginTop="53dp"
+      android:id="@+id/textView5"
+      android:textSize="70sp"/>
+
+  <TextView
+      android:text="2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_marginLeft="21dp"
+      android:layout_marginStart="21dp"
+      android:layout_marginTop="17dp"
+      android:id="@+id/textView7"
+      android:textSize="70sp"/>
+
+  <TextView
+      android:text="2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="34dp"
+      android:layout_marginEnd="34dp"
+      android:id="@+id/textPartB"
+      android:layout_alignBaseline="@+id/textOperator"
+      android:layout_alignBottom="@+id/textOperator"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true"
+      android:textSize="70sp"/>
+
+  <TextView
+      android:text="2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView6"
+      android:textSize="70sp"
+      android:layout_alignBaseline="@+id/textPartA"
+      android:layout_alignBottom="@+id/textPartA"
+      android:layout_alignLeft="@+id/textPartA"
+      android:layout_alignStart="@+id/textPartA"/>
+
+  <TextView
+      android:text="x"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textOperator"
+      android:textSize="70sp"
+      android:layout_alignBaseline="@+id/textPartA"
+      android:layout_alignBottom="@+id/textPartA"
+      android:layout_centerHorizontal="true"/>
+
+  <Button
+      android:text="b1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textView5"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_marginTop="25dp"
+      android:id="@+id/buttonChoice1"
+      android:textSize="40sp"/>
+
+  <Button
+      android:text="b3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@+id/buttonChoice2"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true"
+      android:id="@+id/buttonChoice3"
+      android:textSize="40sp"/>
+
+  <Button
+      android:text="b2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonChoice2"
+      android:textSize="40sp"
+      android:layout_alignTop="@+id/buttonChoice1"
+      android:layout_centerHorizontal="true"/>
 </RelativeLayout>
